@@ -1,0 +1,44 @@
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(31, 42, 84);
+}
+.containter{
+    width: 500px;
+    height: 45px;
+    background: white;
+    padding: 20px 20px 10px;
+    border-radius: 30px;
+    overflow: hidden;
+    transition: 0.63s ease-out;
+}
+.searchBar{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.google{
+display:flex;
+position: absolute;
+right: 0;
+top: 0%;
+padding: 1%;
+}
+.image{
+    display: flex;
+    position: absolute;
+    right: 0;
+    top: 3%;
+    padding: 1%;
+}
+.advanced{
+    display: flex;
+    position:absolute;
+    right: 0;
+    top: 6%;
+    padding: 1%;
+}
